@@ -1,0 +1,82 @@
+<!doctype html>
+<!--
+  roston.html
+  roston browser document
+-->  
+<html>
+<head>
+  <!--ie9+ rendering support for latest features -->
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title> roston </title>
+
+	<!--third party stylesheets -->
+
+	<!-- our stylesheets -->
+	<link rel="stylesheet" href="css/roston.css" type="text/css" />
+	<link rel="stylesheet" href="css/roston.chat.css" type="text/css" />
+	<link rel="stylesheet" href="css/roston.avtr.css" type="text/css"/>
+	<link rel="stylesheet" href="css/roston.shell.css" type ="text/css" />
+
+	<!--third party javascript -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+	</script>
+	<script src = "js/lib/taffy.js"></script>
+	<script src = "js/jq/jquery-1.12.3.js"></script>
+	<script src = "js/jq/jquery.uriAnchor.js"></script> 
+	<script src = "js/jq/jquery.event.gevent.js"></script>
+	<script src = "js/jq/jquery.event.ue.js"></script>
+
+
+	<!--our javascript -->
+	
+	<script src ="js/avtr.js"></script>
+	<script src ="js/socket.js"></script>
+	<script src ="js/socket.io.js"></script>
+	<script src ="js/roston.js"></script>
+	<script src ="js/roston.util.js"></script>
+	<script src ="js/roston.data.js"></script>
+	<script src ="js/roston.test.js"></script>
+	<script src ="js/roston.model.js"></script>
+	<script src ="js/roston.util_b.js"></script>
+	<script src ="js/roston.shell.js"></script>
+	<script src ="js/roston.chat.js"></script>
+	
+
+	<script>
+		$(function(){
+			roston.initModule($('#roston'));
+		});
+	</script>
+</head>
+<body>
+	<div id = "roston">
+
+	<!-- <div class="dropup">
+	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Dropup
+	    <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+	    <li><a href="#">Outer View</a></li>
+	    <li><a href="#">Inner View</a></li>
+	    <li><a href="#">LuckieSpot</a></li>
+	    <li role="separator" class="divider"></li>
+	    <li><a href="#">SPACE</a></li>
+	  </ul>
+	</div> -->
+<!-- var main_html = String()
+	+ '<div class="roston-shell-head">'
+	+ '<div class="roston-shell-head-logo"></div>'
+	+ '<div class="roston-shell-head-acct"></div>'
+	+ '<div class="roston-shell-head-search"></div>'
+	+ '</div>'
+	+ '<div class="roston-shell-main">'
+	+ '<div class="roston-shell-main-content"></div>'
+	+ '</div>'
+	+ '<div class="roston-shell-foot"></div>'
+	+ '<div class="roston-shell-chat"></div>'
+	+ '<div class="roston-shell-modal"></div>';
+    </div> -->
+</body>
+</html>
