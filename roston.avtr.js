@@ -19,10 +19,12 @@
     configMap = {
     	chat_model : null,
     	people_model : null,
-
+     location_model: null
+     
     	settable_map :{
     		chat_model :true,
-    		people_model : true
+    		people_model : true,
+    		location_model:true
     	}
     },
 
